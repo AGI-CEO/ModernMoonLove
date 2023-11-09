@@ -5,6 +5,20 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      colors: {
+        navy: {
+          800: '#0a2540' // A navy blue that closely matches the dark background of the image.
+        },
+        amber: {
+          400: '#FFBF00' // A gold-like hue for accents.
+        },
+        offWhite: {
+          50: '#f8f8f8' // An off-white color for a clean look.
+        },
+        gray: {
+          300: '#d1d5db' // A silver color for secondary elements.
+        }
+      },
       fontFamily: {
         sans: ['var(--font-geist-sans)']
       },
