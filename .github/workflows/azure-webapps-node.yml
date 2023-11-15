@@ -43,6 +43,14 @@ jobs:
         cache: 'npm'
 
     - name: npm install, build, and test
+      env:
+          SHOPIFY_STORE_DOMAIN: ${{ secrets.SHOP_DOMAIN }}
+          SHOPIFY_STOREFRONT_ACCESS_TOKEN: ${{ secrets.SHOP_ACCESS_TOKEN }}
+          COMPANY_NAME: ${{ secrets.COMPANY_NAME }}
+          SHOPIFY_REVALIDATION_SECRET: ${{ secrets.SHOPIFY_REVALIDATION_SECRET }}
+          SITE_NAME: ${{ secrets.SITE_NAME }}
+          TWITTER_CREATOR: ${{ secrets.TWITTER_CREATOR }}
+          TWITTER_SITE: ${{ secrets.TWITTER_SITE }}
       run: |
         npm install
         npm run build --if-present
