@@ -48,6 +48,7 @@ module.exports = {
     hoverOnlyWhenSupported: true
   },
   plugins: [
+    require('daisyui'),
     require('@tailwindcss/container-queries'),
     require('@tailwindcss/typography'),
     plugin(({ matchUtilities, theme }) => {
@@ -64,5 +65,8 @@ module.exports = {
         }
       );
     })
-  ]
+  ],
+  daisyui: {
+    themes: ['autumn']
+  }
 };
