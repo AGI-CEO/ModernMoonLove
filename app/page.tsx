@@ -1,6 +1,7 @@
 import { Carousel } from 'components/carousel';
 import { ThreeItemGrid } from 'components/grid/three-items';
 import Hero from 'components/home/hero';
+import Footer from 'components/layout/footer';
 import LoadingDots from 'components/loading-dots';
 
 import { Suspense } from 'react';
@@ -26,6 +27,7 @@ export default function HomePage() {
         <Carousel />
       </Suspense>
       <Suspense fallback={<LoadingDots className="someClassName" />}></Suspense>
+      <Footer />
     </>
   );
 }
