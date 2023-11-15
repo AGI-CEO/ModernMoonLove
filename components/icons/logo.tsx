@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function LogoIcon(props: React.SVGProps<SVGSVGElement>) {
+export default function LogoIcon(_props: React.SVGProps<SVGSVGElement>) {
   return (
     <>
       <svg
