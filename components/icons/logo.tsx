@@ -1,8 +1,16 @@
 interface LogoIconProps {
   className?: string;
+  width?: string;
+  height?: string;
+  fill?: string;
 }
 
-export default function LogoIcon({ className }: LogoIconProps) {
+export default function LogoIcon({
+  className,
+  width = '100%',
+  height = '100%',
+  fill = '#000'
+}: LogoIconProps) {
   return (
     <>
       <svg
