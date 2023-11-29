@@ -11,6 +11,12 @@ body {
   background-color: #f6f4ee;
 }
 
+html {
+  @media (prefers-color-scheme: dark) {
+    color-scheme: light;
+  }
+}
+
 a,
 input,
 button {
