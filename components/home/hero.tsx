@@ -15,9 +15,6 @@ const Hero = () => {
         <h1 className="mb-4 rounded-lg bg-white bg-opacity-80 p-2 text-4xl font-bold">
           Enchanting Boho Styles Meet Playful Charm!
         </h1>
-        <p className="rounded-lg bg-white bg-opacity-80 p-2 text-xl">
-          Explore our modern boho attire for children, crafted with love.
-        </p>
       </div>
     </>
   );
