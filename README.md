@@ -1,4 +1,4 @@
-# Project Title
+# Modern Moon Love Apparel
 
 This project is a web application built with Next.js, Tailwind CSS, and Headless Shopify.
 
